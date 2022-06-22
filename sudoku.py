@@ -21,7 +21,7 @@ board = [
 
 def solve(bo):
     '''
-    Function that runs the backtracking algo 
+    runs the backtracking algo 
     '''
     find = find_empty(bo)
     if not find:
